@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: end;
+  margin: 10px 0;
+}
+
+.container {
+  background-color: lightblue;
+  padding: 30px;
+  border: 25px #ffe5b4 solid;
+  border-radius: 12px;
+}
+
+.icon-temp {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+  align-self: flex-start;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+input {
+  border: #ffe5b4 3px solid;
+}
+
+button {
+  border-radius: 12px;
+  background-color: #ffe5b4;
+  border: 0;
+}
